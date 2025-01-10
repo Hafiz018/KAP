@@ -38,3 +38,4 @@ AMR_data |>
   tbl_summary(statistic = list(all_continuous() ~ "{mean}±{sd}")) |> 
   as_gt() |> 
   gtsave("tables/Table2.docx")
+
